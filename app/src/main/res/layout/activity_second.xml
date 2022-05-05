@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_stress"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_stress"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/two" />
+
+            <TextView
+                android:id="@+id/text_stress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_gravity="bottom"
+                android:textStyle="bold|italic"
+                android:text="Know Your Stress Level"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_counsel"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_treatment"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/twelve" />
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textStyle="bold|italic"
+                android:layout_gravity="bottom"
+                android:text="Possible Treatment"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+        android:id="@+id/card_investigation"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardCornerRadius="4dp"
+        android:layout_margin="15dp">
+
+
+        <ImageView
+            android:id="@+id/img_investigation"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/seven" />
+
+        <TextView
+            android:id="@+id/txt_investigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:layout_gravity="bottom"
+            android:textStyle="bold|italic"
+            android:text="Possible Investigation"
+            android:textSize="30sp" />
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_medic"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_medic"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/nine" />
+
+            <TextView
+                android:id="@+id/txt_medic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:textStyle="bold|italic"
+                android:layout_gravity="bottom"
+                android:text="Free Meditation"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_counselling"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_counsel"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/sixteen" />
+
+            <TextView
+                android:id="@+id/txt_counselling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_gravity="bottom"
+                android:textStyle="bold|italic"
+                android:text="Counselling"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="15dp">
+
+
+            <ImageView
+                android:id="@+id/img_treat"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/seventeen" />
+
+            <TextView
+                android:id="@+id/txt_treat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_gravity="bottom"
+                android:textStyle="bold|italic"
+                android:text="Counselling"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
