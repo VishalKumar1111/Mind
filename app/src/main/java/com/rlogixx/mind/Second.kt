@@ -20,8 +20,9 @@ class Second : AppCompatActivity() {
             startActivity(intent)
         }
         stress.setOnClickListener {
-            val intent2=Intent(this, Question::class.java)
-            startActivity(intent2)
+            val intent=Intent(this, Question::class.java)
+            startActivity(intent)
+
         }
         treatment.setOnClickListener {
             val intent=Intent(this,Fourth::class.java)
